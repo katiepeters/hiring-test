@@ -2,12 +2,11 @@
 
 ## Summary
 
-Create an app that loads buildings and its sensor readings into and Overview Page.  
-Please read full description before beginning.
+Create an app that loads and displays carbon intensity data from National Grid ESO's carbon intensity API. Please read the full the description before beginning.
 
 ## Detailed Requirements
 
-Broken down into Required General / Functionality, Bonus, and Allowances
+Broken down into Required General, Required Functionality, Bonus, and Allowances
 
 ### Required General
 
@@ -20,42 +19,47 @@ Broken down into Required General / Functionality, Bonus, and Allowances
 
 ### Required Functionality
 
-* Fetch a list of buildings
-* Display a table of buildings with their summary data showcased
-* As much of the data returned should be used to build the interface
-* Option to filter the list of buildings by `active` state, this should be done in the api call
-* Columns should be appropriately sortable (or not)
-* Clicking a building should take me to a different page where we showcase the individual building in a different form.
+#### Home (Overview) Page
+* Display today's overall carbon intensity.
+* Display today's carbon intensity by region (ex. as a table).
+* User should be able to sort regions by carbon intensity.
+* Clicking on a region should open highlights of that region in a side panel.
+* Side panel should display region's carbon intensity from the past week and past month.
+* Side panel should have a "Go to Region" link/button that takes the user to a region details page.
+
+#### Region (Details) Page
+* User should be able to select any time range.
+* Display the overall carbon intensity for the selected time range.
+* Display the carbon intensity for each day within the time range.
 
 ### Bonus
 
 (See Grading section for Bonus items outside of functionality)
 
-* Search by `building.name` (via API)
-* Pagination (via API; results per page can be as low as 1 and 2 to prove functionality)
-* Building page should load and display a chart (developers choice of charting library) showing the readings for one type of sensor
-* Ability to deep link to the building view and load just one buildings data to display.
+* Use interactive graphics (ex. charts) to show data on the region page.
+* Incorporate relevant data in addition to carbon intensity, either from the National Grid API or another public API.
 
 ### Allowances
 
-* Use any reasonable React/JS/node framework to bootstrap and build your app
-* Use of a UI Component Library (as long as it does not just do the functional requirements for you)
+* Any reasonable React/JS/node framework to bootstrap and build your app.
+* UI component libraries, as long as they do not do the functional requirements for you or greatly limit use of custom CSS.
 
-## API
+## API Docs
 
-(TBD)
+https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0
 
 ## Grading
 
-* Functionality
-* Clarity and Organization of Code
-* User Interface / Creativity of Design
+* Functionality.
+* Clarity and organization of code.
+* Data handling (fetching/storing/organizing).
+* User interface and creativity of design.
 * Bonus:
-  * TypeScript
-  * Styling Thoroughness / Organization
-  * Code passing a standard linting suite
-  * Unit Tests
-  * App Hosted/Deployed
-  * Mobile Responsive
-  * High Google Lighthouse Scores
-  * Web Accessibility Considerations
+  * TypeScript.
+  * Styling thoroughness and organization.
+  * Code passing a standard linting suite.
+  * Unit tests.
+  * App hosted/deployed.
+  * Mobile responsiveness.
+  * High Google Lighthouse score.
+  * Web accessibility considerations.
