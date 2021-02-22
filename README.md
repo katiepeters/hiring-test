@@ -29,6 +29,7 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 
 #### Region (Details) Page
 * User should be able to select any time range.
+* User should be able to switch to a different region.
 * Display the overall carbon intensity for the selected time range.
 * Display the carbon intensity for each day within the time range.
 
