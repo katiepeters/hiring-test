@@ -11,12 +11,12 @@ Broken down into Required General / Functionality, Bonus, and Allowances
 
 ### Required General
 
-* Must be written in React
-* Some styling using CSS
-* Git commits as you build w/ clear message
-* Prefer REST, however GraphQL is supported
-* Overall design is up to the developer
-* Attempting atleast some of the bonus items
+* Use React.
+* Use CSS.
+* Use Git (commit as you build with clear messages).
+* Use REST (or GraphQL).
+* Add some design flair.
+* Attempt at least 2 of the bonus items.
 
 ### Required Functionality
 
