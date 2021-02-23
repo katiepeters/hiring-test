@@ -13,9 +13,8 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 * Use React.
 * Use CSS.
 * Use Git (commit as you build with clear messages).
-* Use REST (or GraphQL).
 * Add some design flair.
-* Attempt at least 2 of the bonus items.
+* Attempt at least 1 bonus item from each category (and explain your choices).
 
 ### Required Functionality
 
@@ -35,15 +34,23 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 
 ### Bonus
 
-(See Grading section for Bonus items outside of functionality)
-
+#### Functionality
 * Use interactive graphics (ex. charts) to show data on the region page.
 * Incorporate relevant data in addition to carbon intensity, either from the National Grid API or another public API.
+* Make app responsive (for different screen sizes).
+* Address web accessibility.
+
+#### Other
+* Use TypeScript.
+* Include unit tests.
+* Implement a code linter and configure which rules to use.
+* Host/deploy the app.
 
 ### Allowances
 
 * Any reasonable React/JS/node framework to bootstrap and build your app.
-* UI component libraries, as long as they do not do the functional requirements for you or greatly limit use of custom CSS.
+* UI component libraries (but do not let them handle all CSS or other key requirements).
+
 
 ## API Docs
 
@@ -55,12 +62,3 @@ https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0
 * Clarity and organization of code.
 * Data handling (fetching/storing/organizing).
 * User interface and creativity of design.
-* Bonus:
-  * TypeScript.
-  * Styling thoroughness and organization.
-  * Code passing a standard linting suite.
-  * Unit tests.
-  * App hosted/deployed.
-  * Mobile responsiveness.
-  * High Google Lighthouse score.
-  * Web accessibility considerations.
