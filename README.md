@@ -11,7 +11,7 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 ### Required General
 
 * Use React.
-* Use CSS.
+* Use CSS (or a preprocessor if you want to get fancy).
 * Use Git (commit as you build with clear messages).
 * Add some design flair.
 * Attempt at least 1 bonus item from each category (and explain your choices).
