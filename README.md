@@ -12,9 +12,9 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 
 * Use React.
 * Use CSS (or a preprocessor if you want to get fancy).
-* Use Git (commit as you build with clear messages).
 * Add some design flair.
 * Attempt at least 1 bonus item from each category (and explain your choices).
+* Use best practices for source code management (commit granularity, commit message strategy, branching strategy, etc.).
 
 ### Required Functionality
 
@@ -38,19 +38,21 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 * Use interactive graphics (ex. charts) to show data on the region page.
 * Incorporate relevant data in addition to carbon intensity, either from the National Grid API or another public API.
 * Make app responsive (for different screen sizes).
-* Address web accessibility.
+* Add web accessibility.
+* Add localization.
 
 #### Other
 * Use TypeScript.
 * Include unit tests.
-* Implement a code linter and configure which rules to use.
-* Host/deploy the app.
+* Implement a code linter and configure which rules to use (perhaps select some of your favorite and/or most-used rules?).
 
 ### Allowances
 
 * Any reasonable React/JS/node framework to bootstrap and build your app.
-* UI component libraries (but only for supplemental functionality, not to fulfill requirements).
+* UI component libraries (but only for supplemental functionality, not to fulfill any requirements).
 
+## Just for Kicks
+One Mr. Will Buckingham would very much like you to host the running app somewhere. We will leave this up to you ;)
 
 ## API Docs
 
@@ -60,5 +62,6 @@ https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0
 
 * Functionality.
 * Clarity and organization of code.
-* Data handling (fetching/storing/organizing).
+* Mastery of React.
+* Data handling (fetching/storing/organizing - Ex. Redux?).
 * User interface and creativity of design.
