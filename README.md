@@ -49,7 +49,7 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 ### Allowances
 
 * Any reasonable React/JS/node framework to bootstrap and build your app.
-* UI component libraries (but do not let them handle all CSS or other key requirements).
+* UI component libraries (but only for supplemental functionality, not to fulfill requirements).
 
 
 ## API Docs
