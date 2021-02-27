@@ -6,17 +6,17 @@ Create an app that loads and displays carbon intensity data from National Grid E
 
 ## Detailed Requirements
 
-Broken down into Required General, Required Functionality, Bonus, and Allowances
+Broken down into Required - General, Required - Functionality, Bonus, and Allowances
 
-### Required General
+### Required - General
 
-* Use React.
+* Use React. We have given you a basic app boilerplate to get started.
 * Use CSS (or a preprocessor if you want to get fancy).
 * Add some design flair.
-* Attempt at least 1 bonus item from each category (and explain your choices).
-* Use best practices for source code management (commit granularity, commit message strategy, branching strategy, etc.).
+* Attempt at least 1 item from both bonus categories (and explain your choices).
+* Use best practices for source code management (commit granularity, commit message strategy, etc.).
 
-### Required Functionality
+### Required - Functionality
 
 #### Home (Overview) Page
 * Display today's overall carbon intensity.
@@ -48,11 +48,7 @@ Broken down into Required General, Required Functionality, Bonus, and Allowances
 
 ### Allowances
 
-* Any reasonable React/JS/node framework to bootstrap and build your app.
-* UI component libraries (but only for supplemental functionality, not to fulfill any requirements).
-
-## Just for Kicks
-One Mr. Will Buckingham would very much like you to host the running app somewhere. We will leave this up to you ;)
+You may use any standard/common NPM libraries, keeping in mind that we are trying to assess you and not the library creators.
 
 ## API Docs
 
@@ -63,5 +59,17 @@ https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0
 * Functionality.
 * Clarity and organization of code.
 * Mastery of React.
-* Data handling (fetching/storing/organizing - Ex. Redux?).
+* Handling of data and application state (Ex. Redux?).
 * User interface and creativity of design.
+
+## Delivery
+
+Choose your own adventure:
+* Share via Google Drive link or something similar.
+* Upload to a *private* repo and share it with us.
+
+*Make sure to preserve git history*
+
+## Just for Kicks
+
+Host the running app somewhere. This is certainly not a requirement, so we will leave this up to you ;)
